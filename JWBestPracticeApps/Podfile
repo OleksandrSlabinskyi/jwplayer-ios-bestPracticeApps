@@ -146,5 +146,11 @@ target 'AirPlay' do
   
 end
 
+target 'LockScreenControls' do
+
+  common_JW
+
+end
+
 workspace 'JWBestPracticeApps'
 
