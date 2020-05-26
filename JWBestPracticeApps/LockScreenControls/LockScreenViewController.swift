@@ -1,16 +1,14 @@
 //
-//  ViewController.swift
+//  LockScreenViewController.swift
 //  LockScreenControls
 //
-//  Created by Michael Salvador on 5/20/20.
+//  Created by Michael Salvador on 5/25/20.
 //  Copyright © 2020 Karim Mourra. All rights reserved.
 //
 
 import UIKit
 
-let videoUrl = "http://playertest.longtailvideo.com/adaptive/oceans/oceans.m3u8"
-
-class ViewController: UIViewController {
+class LockScreenViewController: UIViewController {
 
     var topPlayer: JWPlayerController!
     var bottomPlayer: JWPlayerController!
@@ -33,26 +31,36 @@ class ViewController: UIViewController {
     }
 
     func createTopPlayer() {
-        let config = JWConfig.init(contentUrl: videoUrl)
+        let videoURL = "http://playertest.longtailvideo.com/adaptive/oceans/oceans.m3u8"
+        let posterImageURL = "http://d3el35u4qe4frz.cloudfront.net/bkaovAYt-480.jpg"
+        let config = JWConfig.init(contentUrl: videoURL)
+        config.image = posterImageURL
         config.title = "Top Player"
         config.autostart = true
         config.size = CGSize(width: self.view.frame.size.width, height: self.view.frame.height/2)
         self.topPlayer = JWPlayerController(config: config)
         if let playerView = self.topPlayer.view {
             self.view.addSubview(playerView)
-            playerView.center = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY - (config.size.height/2))
+            let midX = self.view.frame.midX
+            let midY = self.view.frame.midY
+            playerView.center = CGPoint(x: midX, y: midY - (config.size.height/2))
         }
     }
 
     func createBottomPlayer() {
-        let config = JWConfig.init(contentUrl: videoUrl)
+        let videoURL = "https://playertest.longtailvideo.com/adaptive/bipbop/bipbopall.m3u8"
+        let posterImageURL = "http://d3el35u4qe4frz.cloudfront.net/3XnJSIm4-480.jpg"
+        let config = JWConfig.init(contentUrl: videoURL)
+        config.image = posterImageURL
         config.title = "Bottom Player"
         config.autostart = true
         config.size = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height/2)
         self.bottomPlayer = JWPlayerController(config: config)
         if let playerView = self.bottomPlayer.view {
             self.view.addSubview(playerView)
-            playerView.center = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY + (config.size.height/2))
+            let midX = self.view.frame.midX
+            let midY = self.view.frame.midY
+            playerView.center = CGPoint(x: midX, y: midY + (config.size.height/2))
         }
     }
 }

@@ -40,6 +40,12 @@ target 'GoogleDAI' do
   
 end
 
+target 'JWLockScreenControls' do
+
+    common_JW
+
+end
+
 target 'JWCasting' do
 
     common_JW

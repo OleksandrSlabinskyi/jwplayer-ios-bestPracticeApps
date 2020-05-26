@@ -23,11 +23,17 @@
 		3B181AF023592DE5003D4CDB /* FeedCollectionViewController-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B181AEF23592DE5003D4CDB /* FeedCollectionViewController-Bridging-Header.h */; };
 		3B181AF223592DEF003D4CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B181AF123592DEF003D4CDB /* Main.storyboard */; };
 		3BA8F709247621BE000190DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8F708247621BE000190DF /* AppDelegate.swift */; };
-		3BA8F70D247621BE000190DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8F70C247621BE000190DF /* ViewController.swift */; };
 		3BA8F710247621BE000190DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8F70E247621BE000190DF /* Main.storyboard */; };
 		3BA8F712247621C2000190DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8F711247621C2000190DF /* Assets.xcassets */; };
 		3BA8F715247621C2000190DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8F713247621C2000190DF /* LaunchScreen.storyboard */; };
 		3BA8F71E2476D737000190DF /* JWBasicVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A729B5D1C99ABD2000F03A9 /* JWBasicVideoViewController.m */; };
+		3BA8F73F247C9D3C000190DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8F73E247C9D3C000190DF /* AppDelegate.m */; };
+		3BA8F748247C9D3C000190DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8F746247C9D3C000190DF /* Main.storyboard */; };
+		3BA8F74A247C9D3F000190DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8F749247C9D3F000190DF /* Assets.xcassets */; };
+		3BA8F74D247C9D3F000190DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8F74B247C9D3F000190DF /* LaunchScreen.storyboard */; };
+		3BA8F750247C9D3F000190DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8F74F247C9D3F000190DF /* main.m */; };
+		3BA8F755247C9DCA000190DF /* LockScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8F754247C9DCA000190DF /* LockScreenViewController.swift */; };
+		3BA8F758247C9E75000190DF /* JWLockScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8F757247C9E75000190DF /* JWLockScreenViewController.m */; };
 		3BBF80C2235DEAF100C529DF /* FeedItemCell+JWPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF80C1235DEAF100C529DF /* FeedItemCell+JWPlayerDelegate.swift */; };
 		403AE5E288657240D7201522 /* libPods-JWRemoteController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6960B809E87D90EBF1ADFC17 /* libPods-JWRemoteController.a */; };
 		47595BB3E8D0E95FABB1E764 /* libPods-FeedTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3442318C4BDA2CFB2694337 /* libPods-FeedTableViewController.a */; };
@@ -66,6 +72,7 @@
 		79CAAD372321D0FD002FFA23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CAAD362321D0FD002FFA23 /* Assets.xcassets */; };
 		79CAAD3A2321D0FD002FFA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CAAD382321D0FD002FFA23 /* LaunchScreen.storyboard */; };
 		79CAAD3F2321D132002FFA23 /* JWBasicVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A729B5D1C99ABD2000F03A9 /* JWBasicVideoViewController.m */; };
+		7D986B7763ABA2C52986EEF5 /* libPods-JWLockScreenControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AEAEE109E4366D4C33C3E9 /* libPods-JWLockScreenControls.a */; };
 		807A645124323041000AE243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A645024323041000AE243 /* AppDelegate.swift */; };
 		807A645324323041000AE243 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A645224323041000AE243 /* SceneDelegate.swift */; };
 		807A645524323041000AE243 /* GoogleDAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A645424323041000AE243 /* GoogleDAIViewController.swift */; };
@@ -371,11 +378,20 @@
 		3B1AD39A2354BEAD002A15D8 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		3BA8F706247621BE000190DF /* LockScreenControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreenControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA8F708247621BE000190DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BA8F70C247621BE000190DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BA8F70F247621BE000190DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BA8F711247621C2000190DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA8F714247621C2000190DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA8F71D24763670000190DF /* LockScreenControls-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockScreenControls-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BA8F73B247C9D3B000190DF /* JWLockScreenControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWLockScreenControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA8F73D247C9D3C000190DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BA8F73E247C9D3C000190DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BA8F747247C9D3C000190DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA8F749247C9D3F000190DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA8F74C247C9D3F000190DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA8F74F247C9D3F000190DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA8F754247C9DCA000190DF /* LockScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenViewController.swift; sourceTree = "<group>"; };
+		3BA8F756247C9E57000190DF /* JWLockScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWLockScreenViewController.h; sourceTree = "<group>"; };
+		3BA8F757247C9E75000190DF /* JWLockScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWLockScreenViewController.m; sourceTree = "<group>"; };
 		3BBF80C1235DEAF100C529DF /* FeedItemCell+JWPlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedItemCell+JWPlayerDelegate.swift"; sourceTree = "<group>"; };
 		3E6AD99A58F7227B7941CDC4 /* Pods-JWRemoteCastController Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWRemoteCastController Extension.release.xcconfig"; path = "Target Support Files/Pods-JWRemoteCastController Extension/Pods-JWRemoteCastController Extension.release.xcconfig"; sourceTree = "<group>"; };
 		3EE58766402AA1E1EE9C57A8 /* Pods-JWRemotePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWRemotePlayer.release.xcconfig"; path = "Target Support Files/Pods-JWRemotePlayer/Pods-JWRemotePlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -389,6 +405,7 @@
 		6EB03385796BF497EAF7D828 /* libPods-JWConviva.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWConviva.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F21AD90B2A1ACBC496E57B0 /* Pods-NativeControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeControls.release.xcconfig"; path = "Target Support Files/Pods-NativeControls/Pods-NativeControls.release.xcconfig"; sourceTree = "<group>"; };
 		72FEF8173D5FA39FEAB8F788 /* Pods-FeedTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedTableViewController.debug.xcconfig"; path = "Target Support Files/Pods-FeedTableViewController/Pods-FeedTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		74AEAEE109E4366D4C33C3E9 /* libPods-JWLockScreenControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWLockScreenControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		767285E78C6DDF7DF2B687DB /* Pods-Casting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casting.release.xcconfig"; path = "Target Support Files/Pods-Casting/Pods-Casting.release.xcconfig"; sourceTree = "<group>"; };
 		793AA63F231ED916006CA8FF /* Casting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793AA641231ED916006CA8FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -550,6 +567,7 @@
 		91FD7493E427021DD2B661F1 /* Pods-LockScreenControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockScreenControls.debug.xcconfig"; path = "Target Support Files/Pods-LockScreenControls/Pods-LockScreenControls.debug.xcconfig"; sourceTree = "<group>"; };
 		98FD78CCEB5A1485D06F9FA5 /* Pods-JWRemoteController Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWRemoteController Extension.release.xcconfig"; path = "Target Support Files/Pods-JWRemoteController Extension/Pods-JWRemoteController Extension.release.xcconfig"; sourceTree = "<group>"; };
 		9BDAA5202DF6B9A446A397BA /* Pods-GoogleDAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDAI.debug.xcconfig"; path = "Target Support Files/Pods-GoogleDAI/Pods-GoogleDAI.debug.xcconfig"; sourceTree = "<group>"; };
+		9CBDF9A6D09FB3E30D54F8DC /* Pods-JWLockScreenControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWLockScreenControls.debug.xcconfig"; path = "Target Support Files/Pods-JWLockScreenControls/Pods-JWLockScreenControls.debug.xcconfig"; sourceTree = "<group>"; };
 		9DFB6B2526CA4A79606216B9 /* Pods-JWRemoteCastPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWRemoteCastPlayer.release.xcconfig"; path = "Target Support Files/Pods-JWRemoteCastPlayer/Pods-JWRemoteCastPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		A6E60A8A38B5ACD4D82C9B9F /* Pods-FeedCollectionViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedCollectionViewController.debug.xcconfig"; path = "Target Support Files/Pods-FeedCollectionViewController/Pods-FeedCollectionViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		AA55B11DA84A8086D606AAEF /* libPods-LockScreenControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LockScreenControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -598,6 +616,7 @@
 		E226A0F8F004A1D7BE7B1431 /* Pods-LockScreenControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockScreenControls.release.xcconfig"; path = "Target Support Files/Pods-LockScreenControls/Pods-LockScreenControls.release.xcconfig"; sourceTree = "<group>"; };
 		E4103B27105FFE328AA0A621 /* libPods-AutoplayVideoFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoplayVideoFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEAA6F3D6F5977A7FBC8E60 /* Pods-AutoplayVideoFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoplayVideoFeed.debug.xcconfig"; path = "Target Support Files/Pods-AutoplayVideoFeed/Pods-AutoplayVideoFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6F82FA0AA3D3A171E84271 /* Pods-JWLockScreenControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWLockScreenControls.release.xcconfig"; path = "Target Support Files/Pods-JWLockScreenControls/Pods-JWLockScreenControls.release.xcconfig"; sourceTree = "<group>"; };
 		ED75868A3C309D3E04F2C1C0 /* Pods-JWRemoteCastController Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWRemoteCastController Extension.debug.xcconfig"; path = "Target Support Files/Pods-JWRemoteCastController Extension/Pods-JWRemoteCastController Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		F262415913389DE545421F1A /* Pods-JWRemoteController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWRemoteController.release.xcconfig"; path = "Target Support Files/Pods-JWRemoteController/Pods-JWRemoteController.release.xcconfig"; sourceTree = "<group>"; };
 		F4EC778C223FD43F0008B8DB /* JWConviva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWConviva.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -645,6 +664,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				61006B09ED24AAB357C9BF15 /* libPods-LockScreenControls.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA8F738247C9D3B000190DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D986B7763ABA2C52986EEF5 /* libPods-JWLockScreenControls.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,13 +850,28 @@
 			isa = PBXGroup;
 			children = (
 				3BA8F708247621BE000190DF /* AppDelegate.swift */,
-				3BA8F70C247621BE000190DF /* ViewController.swift */,
+				3BA8F754247C9DCA000190DF /* LockScreenViewController.swift */,
 				3BA8F70E247621BE000190DF /* Main.storyboard */,
 				3BA8F711247621C2000190DF /* Assets.xcassets */,
 				3BA8F713247621C2000190DF /* LaunchScreen.storyboard */,
 				3BA8F71D24763670000190DF /* LockScreenControls-Bridging-Header.h */,
 			);
 			path = LockScreenControls;
+			sourceTree = "<group>";
+		};
+		3BA8F73C247C9D3B000190DF /* JWLockScreenControls */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8F73D247C9D3C000190DF /* AppDelegate.h */,
+				3BA8F73E247C9D3C000190DF /* AppDelegate.m */,
+				3BA8F756247C9E57000190DF /* JWLockScreenViewController.h */,
+				3BA8F757247C9E75000190DF /* JWLockScreenViewController.m */,
+				3BA8F746247C9D3C000190DF /* Main.storyboard */,
+				3BA8F749247C9D3F000190DF /* Assets.xcassets */,
+				3BA8F74B247C9D3F000190DF /* LaunchScreen.storyboard */,
+				3BA8F74F247C9D3F000190DF /* main.m */,
+			);
+			path = JWLockScreenControls;
 			sourceTree = "<group>";
 		};
 		52AC3655A45B0438BEB4426C /* Frameworks */ = {
@@ -860,6 +902,7 @@
 				E4103B27105FFE328AA0A621 /* libPods-AutoplayVideoFeed.a */,
 				DB8EC1026C52301A1B864E01 /* libPods-GoogleDAI.a */,
 				AA55B11DA84A8086D606AAEF /* libPods-LockScreenControls.a */,
+				74AEAEE109E4366D4C33C3E9 /* libPods-JWLockScreenControls.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1039,6 +1082,7 @@
 			children = (
 				8A729A791C98ACA8000F03A9 /* JWBestPracticeApps */,
 				8A729B101C98B5A6000F03A9 /* JWCasting */,
+				3BA8F73C247C9D3B000190DF /* JWLockScreenControls */,
 				8A729B2B1C98B5F2000F03A9 /* JWAirPlay */,
 				8A9206371C9B4E67002797FA /* Watch App */,
 				8A3734871D1DC2B10008FE59 /* Watch Cast App */,
@@ -1088,6 +1132,7 @@
 				807A647224341EB7000AE243 /* AutoplayVideoFeed.app */,
 				807A644E24323041000AE243 /* GoogleDAI.app */,
 				3BA8F706247621BE000190DF /* LockScreenControls.app */,
+				3BA8F73B247C9D3B000190DF /* JWLockScreenControls.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1356,6 +1401,8 @@
 				83551FA4EC9B0C6AA134CC01 /* Pods-GoogleDAI.release.xcconfig */,
 				91FD7493E427021DD2B661F1 /* Pods-LockScreenControls.debug.xcconfig */,
 				E226A0F8F004A1D7BE7B1431 /* Pods-LockScreenControls.release.xcconfig */,
+				9CBDF9A6D09FB3E30D54F8DC /* Pods-JWLockScreenControls.debug.xcconfig */,
+				ED6F82FA0AA3D3A171E84271 /* Pods-JWLockScreenControls.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1496,6 +1543,25 @@
 			name = LockScreenControls;
 			productName = LockScreenControls;
 			productReference = 3BA8F706247621BE000190DF /* LockScreenControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA8F73A247C9D3B000190DF /* JWLockScreenControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA8F753247C9D3F000190DF /* Build configuration list for PBXNativeTarget "JWLockScreenControls" */;
+			buildPhases = (
+				302D0066278706616D2F26CC /* [CP] Check Pods Manifest.lock */,
+				3BA8F737247C9D3B000190DF /* Sources */,
+				3BA8F738247C9D3B000190DF /* Frameworks */,
+				3BA8F739247C9D3B000190DF /* Resources */,
+				656023682F8E5795A5B114CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWLockScreenControls;
+			productName = JWLockScreenControls;
+			productReference = 3BA8F73B247C9D3B000190DF /* JWLockScreenControls.app */;
 			productType = "com.apple.product-type.application";
 		};
 		793AA63E231ED916006CA8FF /* Casting */ = {
@@ -1933,6 +1999,11 @@
 						DevelopmentTeam = WX87M56X5N;
 						ProvisioningStyle = Automatic;
 					};
+					3BA8F73A247C9D3B000190DF = {
+						CreatedOnToolsVersion = 11.4.1;
+						DevelopmentTeam = WX87M56X5N;
+						ProvisioningStyle = Automatic;
+					};
 					793AA63E231ED916006CA8FF = {
 						CreatedOnToolsVersion = 10.3;
 						DevelopmentTeam = WX87M56X5N;
@@ -2104,6 +2175,7 @@
 				807A647124341EB7000AE243 /* AutoplayVideoFeed */,
 				807A644D24323041000AE243 /* GoogleDAI */,
 				3BA8F705247621BE000190DF /* LockScreenControls */,
+				3BA8F73A247C9D3B000190DF /* JWLockScreenControls */,
 			);
 		};
 /* End PBXProject section */
@@ -2127,6 +2199,16 @@
 				3BA8F715247621C2000190DF /* LaunchScreen.storyboard in Resources */,
 				3BA8F712247621C2000190DF /* Assets.xcassets in Resources */,
 				3BA8F710247621BE000190DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA8F739247C9D3B000190DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA8F74D247C9D3F000190DF /* LaunchScreen.storyboard in Resources */,
+				3BA8F74A247C9D3F000190DF /* Assets.xcassets in Resources */,
+				3BA8F748247C9D3C000190DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2517,6 +2599,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		302D0066278706616D2F26CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWLockScreenControls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		34DC290F7CD4D44C8BE97067 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2777,6 +2881,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656023682F8E5795A5B114CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWLockScreenControls/Pods-JWLockScreenControls-frameworks.sh",
+				"${PODS_ROOT}/JWPlayer-SDK/JWPlayer_iOS_SDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWPlayer_iOS_SDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWLockScreenControls/Pods-JWLockScreenControls-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6B4B4D8830A4BBC20E785CB4 /* [CP] Embed Pods Frameworks */ = {
@@ -3341,9 +3463,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA8F70D247621BE000190DF /* ViewController.swift in Sources */,
+				3BA8F755247C9DCA000190DF /* LockScreenViewController.swift in Sources */,
 				3BA8F71E2476D737000190DF /* JWBasicVideoViewController.m in Sources */,
 				3BA8F709247621BE000190DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA8F737247C9D3B000190DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA8F758247C9E75000190DF /* JWLockScreenViewController.m in Sources */,
+				3BA8F73F247C9D3C000190DF /* AppDelegate.m in Sources */,
+				3BA8F750247C9D3F000190DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3591,6 +3723,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3BA8F714247621C2000190DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA8F746247C9D3C000190DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA8F747247C9D3C000190DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA8F74B247C9D3F000190DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA8F74C247C9D3F000190DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4041,6 +4189,71 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JWPlayer.LockScreenControls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BA8F751247C9D3F000190DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBDF9A6D09FB3E30D54F8DC /* Pods-JWLockScreenControls.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX87M56X5N;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JWBestPracticeApps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = JWPlayer.JWLockScreenControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA8F752247C9D3F000190DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6F82FA0AA3D3A171E84271 /* Pods-JWLockScreenControls.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX87M56X5N;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JWBestPracticeApps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = JWPlayer.JWLockScreenControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -5103,6 +5316,15 @@
 			buildConfigurations = (
 				3BA8F717247621C2000190DF /* Debug */,
 				3BA8F718247621C2000190DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA8F753247C9D3F000190DF /* Build configuration list for PBXNativeTarget "JWLockScreenControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA8F751247C9D3F000190DF /* Debug */,
+				3BA8F752247C9D3F000190DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
